@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//twitter/Run.py=utf-8
+encoding//twitter/__init__.py=utf-8
+encoding//twitter/analyze/__init__.py=utf-8
+encoding//twitter/analyze/analyze.py=utf-8
+encoding//twitter/analyze/twebconst.py=utf-8
+encoding//twitter/analyze/utiler.py=utf-8
+encoding//twitter/net/SendRequest.py=utf-8
+encoding//twitter/net/__init__.py=utf-8
+encoding//twitter/net/const_hp.py=utf-8
+encoding//twitter/net/httprequest.py=utf-8
+encoding//twitter/rabbitmq/consumer1.py=utf-8
+encoding/<project>=UTF-8
