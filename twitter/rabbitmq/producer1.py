@@ -12,7 +12,7 @@ class producer1(object):
     def __init__(self):
 
         self.credentials = pika.PlainCredentials('admin','1q2w3e4r')
-        self.connection = pika.BlockingConnection(pika.ConnectionParameters('47.88.60.222',credentials=self.credentials))
+        self.connection = pika.BlockingConnection(pika.ConnectionParameters('4.88.6.22',credentials=self.credentials))
         self.channel = self.connection.channel()
         self.channel.queue_declare(queue='basequeue')
         self.channel.basic_publish(exchange='', routing_key='basequeue', body='Hello World!')
