@@ -12,8 +12,8 @@ class twittersearch(object):
 
     def __init__(self,queue=''):
         self.quename = queue
-        self.credentials = pika.PlainCredentials('admin','1q2w3e4r')
-        self.connection = pika.BlockingConnection(pika.ConnectionParameters('47.88.60.222',credentials=self.credentials))
+        self.credentials = pika.PlainCredentials('admin','1q2w3e4r6y')
+        self.connection = pika.BlockingConnection(pika.ConnectionParameters('4.88.6.22',credentials=self.credentials))
         self.channel = self.connection.channel()
         self.channel.queue_declare(queue=self.quename)
         pass
